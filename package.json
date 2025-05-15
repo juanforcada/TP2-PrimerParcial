@@ -1,0 +1,29 @@
+{
+  "name": "root-project-parcialito",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "biome lint",
+    "format": "biome format",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "app": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

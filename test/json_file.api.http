@@ -1,0 +1,7 @@
+### 1. GET /api/json_file
+# Este endpoint debe retornar todos los libros almacenados en el archivo books.json.
+# Se espera una respuesta en formato JSON con un array de objetos "Book".
+
+GET http://localhost:3003/api/json_file
+Content-Type: application/json
+Authorization: 123456
